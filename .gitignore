@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+#DATA processing with extract filter and windows
+af-detect/data/windows
+af-detect/data/interim
 # Distribution / packaging
 .Python
 build/
