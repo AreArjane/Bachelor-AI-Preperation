@@ -1,0 +1,14 @@
+target_fs: 250
+win_sec: 10        # 10-second windows
+stride_sec: 10     # = win_sec -> no overlap. Set to 5 for 50% overlap
+drop_last: true    # drop tail shorter than a full window
+bandpass: { low: 0.5, high: 40.0, order: 4 }
+leads: null
+
+class_roots:
+  normal:
+    label: 0
+    root: data/raw/normal
+  af:
+    label: 1
+    root: data/raw/af

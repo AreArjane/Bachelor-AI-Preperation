@@ -1,0 +1,9 @@
+wfdb
+numpy
+scipy
+pandas
+torch
+torchaudio
+scikit-learn
+tqdm
+pyyaml

@@ -1,0 +1,3 @@
+class,label,basepath,recname,patient_id,fs,n_leads,leads,dur_sec,has_atr,has_qrs
+af,1,C:\Users\arjan\Documents\GitHub\Bachelor-AI-Preperation\af-detect\data\raw\af\04015,04015,P04015,250.0,2,"ECG1,ECG2",36823.04,1,1
+normal,0,C:\Users\arjan\Documents\GitHub\Bachelor-AI-Preperation\af-detect\data\raw\normal\16265,16265,P16265,128.0,2,"ECG1,ECG2",91648.0,1,0
